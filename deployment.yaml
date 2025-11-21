@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nodejslab1
-        image: sheetalsshetty/sheetalsshetty/nodeexam4:latest
+        image: sheetalsshetty/nodeexam4:latest
         ports:
         - containerPort: 3000
