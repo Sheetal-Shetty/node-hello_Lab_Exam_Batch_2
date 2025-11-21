@@ -9,6 +9,6 @@ spec:
   selector:
     app: nodejslab
   ports:
-    - port: 3008        # Service port
+    - port: 3007        # Service port
       targetPort: 3000  # Container port (Tomcat)
       protocol: TCP
