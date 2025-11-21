@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nodejslab
+  name: nodejslab1
   labels:
-    app: nodejslab
+    app: nodejslab1
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nodejslab
+      app: nodejslab1
   template:
     metadata:
       labels:
-        app: nodejslab
+        app: nodejslab1
     spec:
       containers:
-      - name: nodejslab
-        image: sheetalsshetty/sheetalsshetty/nodeexam4:v1
+      - name: nodejslab1
+        image: sheetalsshetty/sheetalsshetty/nodeexam4:latest
         ports:
         - containerPort: 3000
